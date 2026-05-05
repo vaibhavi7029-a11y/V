@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaibhavi | Web Developer</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="nav">
+    <h2>Vaibhavi</h2>
+    <div>
+        <button onclick="toggleTheme()">🌙</button>
+        <button onclick="scrollToContact()">Hire Me</button>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>Build Modern Websites</h1>
+    <p>Clean, fast & responsive design for your business</p>
+    <button onclick="scrollToContact()">Get Started</button>
+</section>
+
+<section class="services">
+    <h2>Services</h2>
+    <div class="grid">
+        <div class="card">Website Design</div>
+        <div class="card">Landing Pages</div>
+        <div class="card">UI Design</div>
+    </div>
+</section>
+
+<section class="features">
+    <h2>Why Choose Me?</h2>
+    <div class="grid">
+        <div class="card">Fast Delivery</div>
+        <div class="card">Modern UI</div>
+        <div class="card">Responsive Design</div>
+    </div>
+</section>
+
+<section class="pricing">
+    <h2>Pricing</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Basic</h3>
+            <p>₹499</p>
+            <p>1 Page Website</p>
+        </div>
+        <div class="card">
+            <h3>Standard</h3>
+            <p>₹999</p>
+            <p>3 Pages Website</p>
+        </div>
+        <div class="card">
+            <h3>Premium</h3>
+            <p>₹1999</p>
+            <p>Full Website + Design</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message"></textarea>
+        <button>Send Message</button>
+    </form>
+    <p id="msg"></p>
+</section>
+
+<footer>
+    <p>© 2026 Vaibhavi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
